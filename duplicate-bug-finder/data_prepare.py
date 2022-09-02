@@ -1,5 +1,5 @@
 import argparse
-import cPickle as pickle
+import pickle as pickle
 import json
 import os
 import random
@@ -10,7 +10,7 @@ import nltk
 from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--data', type=str, default='../data/eclipse')
+parser.add_argument('-d', '--data', type=str, default='./data')
 parser.add_argument('-r', '--ratio', type=float, default=0.9)
 parser.add_argument('-wv', '--word_vocab', type=int, default=20000)
 parser.add_argument('-cv', '--char_vocab', type=int, default=100)

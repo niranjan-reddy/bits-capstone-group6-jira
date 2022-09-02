@@ -6,7 +6,16 @@ Execute this command:
 	mongorestore --host localhost --port 8955 --username mongoWorkshopUser --password mongoWorkshopPassword2022 --authenticationDatabase admin --db JiraDB ./esmall
 	
 	
-	
+
+
+
+
+=====================================================================================	
+GitHub Repository Project:
+	https://github.com/tqtg/DuplicateBugFinder
+
+
+
 References:
 	$ wget http://alazar.people.ysu.edu/msr14data/datasets/esmall.tar.gz
 
@@ -29,3 +38,38 @@ References:
 	mongo> db.pairs.count()
 
 	220
+===============================================================================================
+
+
+Other Projects:
+	https://github.com/ghasemieh/Duplicated-Bug-Report-Detection-System
+		3 Stars
+		Dockerized PYTHON Project.
+
+	https://github.com/MastersProject/fast-detection-of-duplicate-bug-report
+		6 Stars
+		Jupyter Notebook Project.
+
+	https://github.com/neda60/Machine-Learning-Deep-Learning-NLP
+		4 Stars
+		Jupyter Notebook Project.
+
+	https://github.com/KasparasKralikas/BERT-Duplicate-Bug-Report-Detection
+		2 Stars
+		Jupyter Notebook Project.
+		Similar or better than the https://github.com/tqtg/DuplicateBugFinder
+
+	https://github.com/sam2396/Automatic-Duplicate-Bug-Report-Detection
+		1 Star
+		Jupyter Notebook Project.
+		Dataset: Eclipse, Mozilla, Thunderbird
+
+	https://github.com/udeshika-sewwandi/duplicate-bug-report-detection
+		Jupyter Notebook Project.
+		Different Approaches. Dataset not clear.
+
+	
+
+
+
+
