@@ -1,0 +1,31 @@
+First of all Install MongoDB Tools from the portal on the DB Server box.
+
+Execute this command:
+	If the HOSTNAME and PORT are not default and the DB is Password Protected...
+	
+	mongorestore --host localhost --port 8955 --username mongoWorkshopUser --password mongoWorkshopPassword2022 --authenticationDatabase admin --db JiraDB ./esmall
+	
+	
+	
+References:
+	$ wget http://alazar.people.ysu.edu/msr14data/datasets/esmall.tar.gz
+
+	$ tar zxvf esmall.tar.gz
+
+	$ mongorestore
+
+	$ mongo esmall
+
+	mongo> show collections
+
+	mongo> db.initial.count()
+
+	1000
+
+	mongo> db.clear.count()
+
+	878
+
+	mongo> db.pairs.count()
+
+	220
