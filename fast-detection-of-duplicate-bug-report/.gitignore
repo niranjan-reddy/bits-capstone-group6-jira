@@ -106,4 +106,4 @@ ENV/
 # data
 data/
 *.t7
-dataset/*.csv
+dataset/eclipse_platform_original.csv
